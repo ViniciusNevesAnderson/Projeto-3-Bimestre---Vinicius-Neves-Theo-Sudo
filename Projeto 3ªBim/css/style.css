@@ -60,12 +60,18 @@ tbody td{
 
 #tarifa{
     width: 8%;
-    padding: 8px;
+    padding: 1%;
     border: 1px solid gray;
     border-radius: 4px;
     align-content: center;
+    background-color: rgb(168, 168, 168);
 }
 
 p{
     font-size: 20px;
+}
+
+#data{
+    padding: 1%;
+    background-color: rgb(168, 168, 168);
 }
