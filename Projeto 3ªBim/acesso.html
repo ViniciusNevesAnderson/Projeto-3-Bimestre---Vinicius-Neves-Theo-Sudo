@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+        <h1>Estacionamento</h1>
+        <h2>Adicionar novo Carro</h2>
+
+        <form id="formulario">
+
+            <div id="tarifaContainer">
+            
+            <p>Tarifa:  <input type="number" id="tarifa" disabled><br><br></p>
+                
+            </div>
+
+            <p>Carro:<br> <input type="text" id="carro" class="itens"><br></p>
+
+            <p>Placa:<br> <input type="text" id="placa" class="itens"><br></p>
+
+            <p>Horário de Chegada:<br> <input type="text" id="horario_de_chegada" class="itens"><br></p>
+
+            <p>Horário de Saída:<br> <input type="text" id="horario_de_saida" class="itens"><br></p>
+
+            <button type="submit" class="btn">Adicionar</button></p>
+
+        <h1>Meus Carros</h1>
+
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Carro</th>
+                    <th>Placa</th>
+                    <th>Horário de Chegada</th>
+                    <th>Horário de Saída</th>
+                    <th>Total a Pagar</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </form>
+    </div>
+
+    <script src="javascript/scriptAcesso.js"></script>
+</body>
+</html>
